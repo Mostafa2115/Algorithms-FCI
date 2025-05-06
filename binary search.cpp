@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+int main {
 int n;
     cin >> n;
     int arr[n];
@@ -23,3 +26,4 @@ int n;
         cout << "Element found at index " << ans << endl;
     else
         cout << "Element not found" << endl;
+}
